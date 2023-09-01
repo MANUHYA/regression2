@@ -3,9 +3,7 @@ import os
 import pandas as pd
 import joblib as jb
 
-st.markdown(f'''
-<h1 align='center' >Medical Cost</h1>
-''',unsafe_allow_html=True)
+
 
 def return_df(age,sex,bmi,children,smoker,region):
 	kbn={
