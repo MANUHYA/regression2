@@ -26,7 +26,7 @@ st.markdown(f'''
 ''',unsafe_allow_html=True)
 age=st.number_input('Enter your age',min_value=0)
 sex=st.selectbox('Select your gender',['male','female'])
-bmi=st.number_input('bmi',min_value=0)
+bmi=st.number_input('body mass index',min_value=0)
 children=st.number_input('Count of your Children',min_value=0)
 smoker=st.selectbox(' Do you smoke',['yes','no'])
 region=st.selectbox('Select your Region',['southeast','southwest','northeast','northwest'])
